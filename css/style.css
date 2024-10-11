@@ -1,0 +1,197 @@
+
+/* Fonts */
+/* font-family: "Rubik", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+/* Paleta de colores */
+
+/* 
+Light Blue: 75AADB
+White: FFFFFF
+Yellow: FCBF45
+Brown: 843511
+*/
+
+
+/* Selector Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: #FCBF45;
+    text-shadow: ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    position: sticky;
+    top: 0;
+}
+
+header img{
+    display: flex;
+    width: 75px; 
+}
+
+nav a{
+    display: flex;
+    text-decoration: none;
+}
+
+.lista-nav{
+    display: flex;
+    font-size: 2.4rem;
+    list-style-type: none;
+    padding: 15px;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.lista-nav li{
+    margin: 0 15px;
+}
+
+/* Body */
+
+body{
+    background-color: #75AADB;
+    overflow: scroll;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+/* Recommended Works */
+
+.recommended{
+    text-align: center;
+    text-wrap: wrap;
+    background-color: #F7EED3;
+    padding: 75px 50px;
+}
+
+.recommended h2{
+    font-size: 3rem;
+}
+
+.recommended h5{
+    font-size: 2rem;
+}
+
+.summary{
+    font-size: 1.3rem;
+    text-wrap: wrap;   
+}
+
+/* Accolades */
+
+.accolades{
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.title-accolades{
+    display: inline;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.circles-father{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.circles{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 30px 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 5px blue;
+    background-color: yellow;
+    font-size: 4rem;
+    font-weight: bold;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+/* About Me */
+
+.aboutMe p{
+    display: flex;
+    flex-flow: row;
+}
+
+.aboutMe img{
+    width: 10rem;
+}
+
+/* Comments */
+
+.comments div{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1rem;
+}
+
+.comment-picture{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    background-color: #674636;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+footer img{
+    display: flex;
+    width: 75px;
+
+}
+
+.socials-father{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials{
+    display: flex;
+    width: 40px;
+    flex-direction: row;
+
+}

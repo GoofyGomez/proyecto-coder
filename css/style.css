@@ -92,9 +92,12 @@ h1{
 }
 
 .recommended h5{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
+.recommended img{
+    width: 50%;
+}
 
 .summary{
     font-size: 1.3rem;

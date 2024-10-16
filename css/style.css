@@ -84,20 +84,22 @@ h1{
     text-align: center;
     text-wrap: wrap;
     background-color: #F7EED3;
-    padding: 75px 50px;
 }
 
 .recommended h2{
+    display: flex;
     font-size: 3rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .recommended h5{
+    display: flex;
     font-size: 3rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.recommended img{
-    width: 50%;
-}
 
 .summary{
     font-size: 1.3rem;
@@ -133,7 +135,7 @@ h1{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: solid 5px blue;
+    border: solid 5px #843511;
     background-color: yellow;
     font-size: 4rem;
     font-weight: bold;
@@ -146,13 +148,23 @@ h1{
 
 /* About Me */
 
-.aboutMe p{
-    display: flex;
-    flex-flow: row;
-}
-
 .aboutMe img{
     width: 10rem;
+    margin: 10px;
+}
+
+.text-about{
+    display: flex;
+    flex-flow: column;
+    font-size: 2rem;
+    text-align: justify;
+    padding: 10px;
+    background-color: #FFFFFF;
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 /* Comments */
